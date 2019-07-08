@@ -14,5 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
+//holi
 Route::resource('products','ProductController');
